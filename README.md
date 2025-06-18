@@ -18,7 +18,7 @@ This page showcases sample outputs from my Master's thesis project on 3D group d
 </table>
 
 
---
+---
 
 ### 3D Group Detection Pipeline Visualization
 
