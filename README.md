@@ -18,7 +18,7 @@ This page showcases sample outputs from my Master's thesis project on 3D group d
 </table>
 
 
----
+--
 
 ### 3D Group Detection Pipeline Visualization
 
@@ -26,5 +26,5 @@ This page showcases sample outputs from my Master's thesis project on 3D group d
   <img src="Images/Visualization_Pipeline.png" width="700"/>
 </div>
 
-<sub><b>Figure:</b> End-to-end visualization of the 3D group detection pipeline using the DCCLA detector and DBSCAN-based clustering on the L-CAS dataset. The pipeline processes raw point cloud data (.pcd), detects pedestrians, and assigns group labels, ending in fully labeled social groups.</sub>
+<sub><b>Figure:</b> End-to-end Visualization of the 3D group detection pipeline for the [DCCLA](https://github.com/jinzhengguang/DCCLA/tree/main) detector on the [L-CAS](https://lcas.lincoln.ac.uk/wp/research/data-sets-software/l-cas-3d-point-cloud-people-dataset/#:~:text=A%20lot%20of%20challenges%20have,people%2C%20and%20crowds%20of%20people) dataset. Ground truth images are aligned vertically on the left. The inference path starts from the point cloud data box (.pcd) at the bottom and flows rightward, ending with final group assignments above the detector output.</sub>
 
